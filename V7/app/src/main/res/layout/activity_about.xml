@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=" beauty.home.beautyhomeapplication.AboutActivity">
+
+    <ImageView
+        android:id="@+id/beauty_home_image"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/beauty_home" />
+
+    <TextView
+        android:id="@+id/text_edit_address_beauty_home"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/beauty_home_image"
+        android:layout_alignRight="@+id/beauty_home_image"
+        android:layout_margin="20dp"
+        android:text="العنوان:"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_edit_address_beauty_home_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/text_edit_address_beauty_home"
+        android:layout_toLeftOf="@+id/text_edit_address_beauty_home"
+        android:gravity="right"
+        android:text="@string/address"
+        android:textDirection="rtl"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_edit_phone_beauty_home"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_edit_address_beauty_home_value"
+        android:layout_alignRight="@+id/beauty_home_image"
+        android:layout_margin="20dp"
+        android:text="الهاتف:"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_edit_phone_beauty_home_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/text_edit_phone_beauty_home"
+        android:layout_toLeftOf="@+id/text_edit_phone_beauty_home"
+        android:gravity="right"
+        android:text="@string/phone"
+        android:textDirection="rtl"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">بيوتي هوم الشيخ بدر</string>
+
+    <string name="title_activity_maps">Map</string>
+    <string name="address">الشيخ بدر- خلف مطعم الشعب - دخلة مكتبة المنارة -آخر محل بالدخلة على اليمين مقابل مكتبة الأستاذ علي حمود</string>
+    <string name="phone">4735109</string>
+
+</resources>
